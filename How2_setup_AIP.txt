@@ -1,0 +1,32 @@
+# How2_setup_AIP #
+
+This how2 is the easiest way I found to run the
+Java Web App that the Dell iDrac uses.
+
+I have included the portable versions of:
+Firefox v.25
+Java 6
+
+If you extract the zip, it will create the folders under "C:/temp/AccessIdracPortable/*"
+if you want to change that and / or move them, then just make note of where you store them. The 2 exe's that we need are:
+"C:\temp\AccessIdracPortable\FirefoxPortable_v-25_classic\FirefoxPortable.exe"
+"C:\temp\AccessIdracPortable\Java\bin\javaws.exe"
+
+1. Open Firefox v.25 portable
+2. Navigate to the IP of the Dell iDrac
+3. Under the Virtual Console Preview click "Launch"
+4. You will get the "Open with" diagalog box
+5. Click the drop down 
+6. Click "other ..."
+7. Click "Browse ..."
+8. Paste "C:\temp\AccessIdracPortable\Java\bin\javaws.exe" into the File name box.
+9. Click "Open"
+10. Click "OK"
+11. Make sure you see the "Java 6 ..." opening animation.
+12. If you get any other Java or site warning box, make sure you are using the correct path to the Java 6 Portable Web Start Launcher.
+
+On the first run you may have to check the Firefox Downloads or download settings. As without the initial profile it would try to dl it again.
+
+
+
+
